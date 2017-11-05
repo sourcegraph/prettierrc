@@ -14,14 +14,10 @@ Prettier config for projects at Sourcegraph.
 npm install --save-dev @sourcegraph/prettierrc
 ```
 
-Then add this package.json:
+Then add this `prettier.config.js` to the project:
 
-```json
-{
-  "scripts": {
-    "prettier": "prettier --config node_modules/@sourcegraph/prettierrc/.prettierrc --list-different --write"
-  }
-}
+```js
+module.exports = require('@sourcegraph/prettierrc')
 ```
 
 ## Making changes
