@@ -1,0 +1,21 @@
+{
+  "name": "@sourcegraph/prettierrc",
+  "version": "1.0.0",
+  "description": "TSLint config for TypeScript projects at Sourcegraph",
+  "main": ".prettierrc",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sourcegraph/prettierrc"
+  },
+  "keywords": [
+    "prettier",
+    "config",
+    "formatting"
+  ],
+  "scripts": {
+    "prettier": "prettier .prettierrc --list-different --write"
+  },
+  "devDependencies": {
+    "prettier": "^1.7.4"
+  }
+}
