@@ -3,7 +3,7 @@
 
 [![npm](https://img.shields.io/npm/v/@sourcegraph/prettierrc.svg)](https://www.npmjs.com/package/@sourcegraph/prettierrc)
 [![downloads](https://img.shields.io/npm/dt/@sourcegraph/prettierrc.svg)](https://www.npmjs.com/package/@sourcegraph/prettierrc)
-[![build](https://travis-ci.org/sourcegraph/tsconfig.svg?branch=master)](https://travis-ci.org/sourcegraph/tsconfig)
+[![build](https://travis-ci.org/sourcegraph/prettierrc.svg?branch=master)](https://travis-ci.org/sourcegraph/prettierrc)
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
 
 Prettier config for projects at Sourcegraph.
