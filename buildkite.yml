@@ -1,6 +1,0 @@
-
-steps:
-  - label: ':lipstick:'
-    command: |-
-      npm install
-      npm run prettier
