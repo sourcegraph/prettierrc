@@ -16,6 +16,6 @@
     "prettier": "prettier prettier.config.js --list-different --write"
   },
   "devDependencies": {
-    "prettier": "^1.7.4"
+    "prettier": "1.10.1"
   }
 }
