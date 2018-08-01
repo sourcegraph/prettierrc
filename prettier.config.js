@@ -7,7 +7,7 @@ module.exports = {
   singleQuote: true,
   overrides: [
     {
-      files: '{*.js?(on),*.y?(a)ml,*.*.js?(on),*.*.y?(a)ml,*.md,.prettierrc,.stylelintrc,.babelrc}',
+      files: '{*.js?(on),*.y?(a)ml,.*.js?(on),.*.y?(a)ml,*.md,.prettierrc,.stylelintrc,.babelrc}',
       options: {
         tabWidth: 2,
       },

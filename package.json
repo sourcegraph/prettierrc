@@ -13,9 +13,9 @@
     "formatting"
   ],
   "scripts": {
-    "prettier": "prettier prettier.config.js --list-different --write"
+    "prettier": "prettier .travis.yml README.md prettier.config.js --list-different --write"
   },
   "devDependencies": {
-    "prettier": "1.10.1"
+    "prettier": "^1.14.0"
   }
 }

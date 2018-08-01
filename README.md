@@ -1,4 +1,3 @@
-
 # Sourcegraph Prettier Config
 
 [![npm](https://img.shields.io/npm/v/@sourcegraph/prettierrc.svg)](https://www.npmjs.com/package/@sourcegraph/prettierrc)
