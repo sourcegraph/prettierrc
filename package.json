@@ -1,6 +1,7 @@
 {
   "name": "@sourcegraph/prettierrc",
   "version": "2.2.0",
+  "license": "Apache-2.0",
   "description": "TSLint config for TypeScript projects at Sourcegraph",
   "main": "prettier.config.js",
   "repository": {
