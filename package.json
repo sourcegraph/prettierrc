@@ -2,8 +2,11 @@
   "name": "@sourcegraph/prettierrc",
   "version": "3.0.1",
   "license": "Apache-2.0",
-  "description": "TSLint config for TypeScript projects at Sourcegraph",
+  "description": "Prettier config for TypeScript projects at Sourcegraph",
   "main": "prettier.config.js",
+  "files": [
+    "prettier.config.js"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/sourcegraph/prettierrc"
@@ -14,9 +17,10 @@
     "formatting"
   ],
   "scripts": {
-    "prettier": "prettier .travis.yml README.md prettier.config.js --list-different --write"
+    "prettier": "prettier .travis.yml README.md prettier.config.js --list-different --write",
+    "prettier-check": "yarn run prettier --write=false"
   },
   "devDependencies": {
-    "prettier": "^1.14.0"
+    "prettier": "^1.19.1"
   }
 }
