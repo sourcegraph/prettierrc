@@ -5,6 +5,7 @@ module.exports = {
   semi: false,
   trailingComma: 'es5',
   singleQuote: true,
+  arrowParens: 'avoid',
   overrides: [
     {
       files: '{*.js?(on),*.y?(a)ml,.*.js?(on),.*.y?(a)ml,*.md,.prettierrc,.stylelintrc,.babelrc}',
